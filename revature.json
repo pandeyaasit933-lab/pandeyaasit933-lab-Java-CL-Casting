@@ -1,0 +1,20 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/CastingPrimitiveTest.java",
+      "testCases": [
+        {
+          "methodName": "castTest1",
+          "label": "Verify casting double 4.3 to int",
+          "description": "Tests that the castToInt method correctly truncates 4.3 to 4 when casting from double to int"
+        },
+        {
+          "methodName": "castTest2",
+          "label": "Verify casting double 9.999 to int",
+          "description": "Tests that the castToInt method correctly truncates 9.999 to 9 when casting from double to int"
+        }
+      ]
+    }
+  ]
+}
